@@ -17,7 +17,7 @@
         <div class="navbar">
             <!-- Icono genérico -->
             <div class="logo">
-                <img src="lgo.png" alt="AMINA AgroCare" />
+                <img src="./lgo.png" alt="AMINA AgroCare" />
             </div>
             <!-- Enlaces de navegación -->
             <div class="nav-links source-code-pro">
