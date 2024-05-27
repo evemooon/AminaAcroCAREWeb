@@ -1,0 +1,78 @@
+﻿/* Estilos para la barra superior */
+.navbar {
+    background-color: #c9d955; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espacio interior */
+    display: flex; /* Alinear elementos horizontalmente */
+    justify-content: space-between; /* Distribuir los elementos horizontalmente */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilos para el logo */
+.logo img {
+    max-width: 2%; /* Hace que la imagen sea responsiva */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+    .nav-links a {
+        margin-left: 20px; /* Espacio entre enlaces */
+        text-decoration: none; /* Quitar el subrayado de los enlaces */
+        color: #252617; /* Color del texto de los enlaces */
+    }
+
+        .nav-links a:hover {
+            text-decoration: underline; /* Subraya los enlaces al pasar el ratón por encima */
+        }
+
+/* Aplicar la fuente 'Source Sans Pro' */
+.source-code-pro {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Estilos para el icono */
+.icon {
+    font-size: 24px; /* Tamaño del icono */
+}
+
+/* Estilos para el carrusel */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para el slogan */
+.slogan {
+    font-family: 'Oswald', sans-serif; /* Fuente Oswald */
+    font-size: 2.5em; /* Tamaño grande */
+    font-weight: 700; /* Peso de la fuente */
+    color: #252617; /* Color del texto */
+    margin: 20px 0; /* Margen */
+    text-shadow: 2px 2px #c9d955; /* Sombra del texto */
+}
+
+/* Estilos para el footer */
+.footer {
+    background-color: #252617; /* Color de fondo del footer */
+    color: white; /* Color del texto del footer */
+    padding: 20px 0; /* Espacio interior del footer */
+    text-align: center; /* Alinear texto al centro */
+}

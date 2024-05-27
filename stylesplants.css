@@ -1,0 +1,81 @@
+﻿.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .navbar .user-info {
+        display: flex;
+        align-items: center;
+	width: 148px;
+}
+
+        .navbar .user-info i {
+            margin-right: 5px;
+        }
+
+.logout-btn {
+    cursor: pointer;
+	width: 144px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+    .box .delete-icon {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+    }
+
+    .box .empty-icon {
+        font-size: 50px;
+        margin-top: 50px;
+        color: #999;
+    }
+
+    .box .name {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        font-weight: bold;
+    }
+
+    .box .date {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        font-size: 12px;
+        color: #999;
+    }
+
+.add-btn {
+    font-size: 24px;
+    cursor: pointer;
+    float: left;
+    margin: 10px;
+}
+
+.help-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.help-btn i {
+        margin-right: 5px;
+ }
