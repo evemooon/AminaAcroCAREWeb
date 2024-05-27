@@ -28,7 +28,7 @@
                 <a href="index.html">Cerrar sesión</a>
             </div>
             <div class="logo">
-               <img src="lgo.png" alt="AMINA AgroCare" />
+               <img src="./lgo.png" alt="AMINA AgroCare" />
             </div>
         </div>
         <div class="container">
