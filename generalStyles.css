@@ -63,7 +63,7 @@ img {
 .slogan {
     font-family: 'Oswald', sans-serif; /* Fuente Oswald */
     font-size: 2.5em; /* Tamaño grande */
-    font-weight: 300; /* Peso de la fuente */
+    font-weight: 100; /* Peso de la fuente */
     color: #252617; /* Color del texto */
     margin: 20px 0; /* Margen */
     text-shadow: 2px 2px #c9d955; /* Sombra del texto */
